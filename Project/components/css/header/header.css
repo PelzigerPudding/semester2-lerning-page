@@ -15,11 +15,3 @@ header .header .header-flex {
   justify-content: space-between;
   align-items: center;
 }
-
-header.header .header-flex span .subject-s1 {
-  background-color: white;
-  position: absolute;
-
-  display: flex;
-  flex-direction: column;
-}
