@@ -1,0 +1,21 @@
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+main .sidebar {
+  width: 15vw;
+  background-color: blue;
+}
+
+main .main-content {
+  width: 85vw;
+  background-color: green;
+}
+
+main .sidebar .container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

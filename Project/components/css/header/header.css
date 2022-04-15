@@ -1,0 +1,25 @@
+/*
+ * header
+*/
+
+header .header {
+  /*position: fixed;*/
+  background-color: red;
+}
+
+header .header .header-flex {
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header.header .header-flex span .subject-s1 {
+  background-color: white;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+}
