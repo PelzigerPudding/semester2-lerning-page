@@ -15,3 +15,11 @@ header .header .header-flex {
   justify-content: space-between;
   align-items: center;
 }
+
+header .header .header-flex .logo {
+  margin-right: 35px;
+}
+
+header .header .header-flex .dropdown {
+  width: 170px;
+}
